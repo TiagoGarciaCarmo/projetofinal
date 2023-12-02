@@ -1,0 +1,46 @@
+@font-face{
+    font-family: 'Startup';
+    src: url('fonts/Startup-Regular.otf');
+     }
+
+
+    .body{
+        background-color:#f4f4f4;
+        font-family: 'Startup', sans-serif;
+        font-style: bolder, #F4F4F4;
+
+        overflow-x: hidden;
+        margin: 0px;
+        padding: 0px;
+    }
+
+
+    .footer{
+        color: 1D86EF;
+        text-align: center;
+        position: relative;
+        bottom: 0px;
+        border: 1px solid #f4f4f4;
+
+    }
+
+    .instrucao{
+        padding-left: 50px;
+        padding-bottom: 30px;
+    }
+
+    .catalogo{
+
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+        justify-content: flex-start;
+        margin: 20px auto;
+        max-width: 800px;
+      }
+      
+      .catalogo div {
+      
+        text-align: flex;
+      
+      }

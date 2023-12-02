@@ -1,0 +1,25 @@
+        /* Css do sub-menu*/
+        .submenu {
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 20px;
+            max-width: 100%; /* Para ocupar toda a largura da tela */
+            box-sizing: border-box;
+            overflow-x: auto; /* Para habilitar a rolagem horizontal caso necessário */
+          }
+      
+          .submenu a {
+            display: block;
+            border-radius: 30px;
+            overflow: hidden;
+            margin: 0 10px; /* Ajuste a margem conforme desejado */
+          }
+      
+          .submenu img {
+            width: 150px; /* Ajuste o tamanho conforme desejado */
+            height: auto;
+            max-width: 100%; /* Ajusta a largura máxima das imagens */
+            }
+    
